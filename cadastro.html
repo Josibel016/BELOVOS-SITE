@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <title>cadastro</title>
-    <link rel="stylesheet" type="text/css" href="cad.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <section>
@@ -15,18 +15,20 @@
     
         
     <nav class="cabecalho-menu">
-    <a class="cabecalho-menu-item" href="index.html"> home </a>
-    <a class="cabecalho-menu-item">sobre</a>
-    <a class="cabecalho-menu-item">servicos</a>
-    <a class="cabecalho-menu-item">peca ja o seu</a>
-    <a class="cabecalho-menu-item">nossos valores</a>
+        <a class="cabecalho-menu-item" href="index.html">home</a>
+        <a class="cabecalho-menu-item" href="sobre.html">sobre</a>
+        <a class="cabecalho-menu-item" href="servicos.html" >servicos</a>
+        <a class="cabecalho-menu-item" href="cadastro.html">peca ja o seu</a>
+        <a class="cabecalho-menu-item" href="valores.html">nossos valores</a>
+    </nav>
 </nav>
+
 
 <img class="cabecalho-imagem" src="img/logo 3.png" alt:"logo.BelOvos"> </header>
 <main class="temporario">  
 
     <div class="campo">
-<h1 id="titulo" > Cadastro novo Cliente </h1>
+<h1 class="conteudo-secundario-titulo"> Cadastro novo Cliente </h1>
 <p id="subtitulo"> Complete suas informacoes </p>
 <br>
 
@@ -43,7 +45,7 @@
     <label for="sobrenome"> <strong>sobrenome</strong></label>
 <input type="text" name="Sobrenome" id="Sobrenome" required>
 </div>
-</fieldset>
+
 
 <div>
     <label for="email" > <strong>email</strong></label required>
@@ -51,22 +53,22 @@
 </div>
 
 <div class="campo">
-<label>Escolha seu plano</label>
+<label>Escolha seu plano</label><br>
 <label>
-<input type="radio" name="devweb" value="2x na semana" checked>2x na semana
+<input type="radio" name="devweb" value="2x na semana" checked> 2x na semana    
 </label>
 
 <label> 
-<input type="radio" name="devweb" value="semanal">semanal    
+<input type="radio" name="devweb" value="semanal"> semanal     
 </label>
 
 <label>
-<input type="radio" name="devweb" value="Quizenal">Quizenal
+<input type="radio" name="devweb" value="Quizenal"> Quizenal 
 
 </label>
 
 <label>
-    <input type="radio" name="devweb" value="Mensal">Mensal
+    <input type="radio" name="devweb" value="Mensal">Mensal 
 </label>
 
 </div>
@@ -82,9 +84,9 @@
 </select>
 </div>
 
-<fieldset class="grupo">
+
 <div id="check">
-<label> Selecione a quantidade que precisa</label><br><br>
+<label> Selecione a quantidade que precisa</label><br>
 <input type="checkbox" id="quantidade" name="quantidade" value="1">
 
 <label for="quantidade">1</label>
@@ -101,7 +103,6 @@
 <label for="quantidade4">4</label>
 </div>
 
-</fieldset>
 
 <div>
     <br>
